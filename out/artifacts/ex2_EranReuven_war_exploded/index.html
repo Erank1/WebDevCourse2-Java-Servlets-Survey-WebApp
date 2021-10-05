@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="customStyle.css">
+    <title>Servlet demos</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body class="bgStyle container-fluid" dir="ltr">
+<!-- Begin page content -->
+    <div class="card">
+        <div class="card-body" id="z-content">
+                <h4 class="card-tite" dir="ltr">Welcome to Eran's Survey!</h4>
+                <p class="card-text" dir="ltr">See below the survey follow the question. You can only vote once!</p>
+                <!-- Material unchecked -->
+                <button id="alertBtn" class="alert alert-danger d-none">
+                </button>
+                <button id="votedbtn" class="alert alert-success d-none">
+                </button>
+            <h4 id="x-header"></h4>
+            <div class="form-check">
+                <div id="x-content"></div>
+                <div class = "ClickToVote">
+                    <button id="btn-vote" class="btn btn-primary d-none">Vote!</button>
+                </div>
+
+        </div>
+        <div class = "clickForSurvey">
+            <button id="btn-open" class="btn btn-success d-none">I want to vote!</button>
+            <button id="btn-close" class="btn btn-danger d-none">I dont want to vote.</button>
+        </div>
+        </div>
+    </div>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+<script src="SurveyApp.js"></script>
+</body>
+</html>

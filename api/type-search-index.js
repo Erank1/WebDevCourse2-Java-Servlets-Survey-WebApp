@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"Ex2_EranReuvenPkg","l":"JsonResponse"},{"p":"Ex2_EranReuvenPkg","l":"Results"},{"p":"Ex2_EranReuvenPkg","l":"ServletResults"},{"p":"Ex2_EranReuvenPkg","l":"ServletSurvey"},{"p":"Ex2_EranReuvenPkg","l":"ServletVote"},{"p":"Ex2_EranReuvenPkg","l":"Survey"}]

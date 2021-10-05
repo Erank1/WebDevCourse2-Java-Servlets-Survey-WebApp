@@ -1,0 +1,32 @@
+/*Stylesheet for ex2 by Eran Reuven 205410848*/
+
+html {
+    height: 100%;
+    width: 100%;
+}
+body {
+    height: 100%;
+    width: 100%;
+}
+div {
+    transition-timing-function: ease-out;
+}
+body.bgStyle, .bgStyle {
+    background: url(http://atraf.xyz/EranReuvenResources/Liquid-Cheese.svg) repeat center left;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover !important;
+
+}
+.clickForSurvey{
+    padding-left: 40%;
+}
+.card-body{
+    transition: height 1s;
+}
+.alert{
+    margin-left: 30% !important;
+    margin-right: 30% !important;
+}
+
